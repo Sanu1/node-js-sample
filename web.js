@@ -4,7 +4,7 @@ var k = fs.readFileSync('./index.html','utf8');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('$k');
+  response.send($kx);
 });
 
 var port = process.env.PORT || 5000;
